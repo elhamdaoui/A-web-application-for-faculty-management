@@ -1,0 +1,438 @@
+/* 
+    Document   : gpage_etudiant_style
+    Created on : 28 janv. 2015, 16:51:24
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.info_p_etd{
+    display: inline-block;
+    width: 90%;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 4%;
+    background-color: yellow; 
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.info_p_etd fieldset{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.info_p_etd div{
+    margin-top:0.5%;
+}
+.info_p_etd em{
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 2%;
+    padding-left: 2%;
+    width:20%;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.info_p_etd strong{
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 2%;
+    padding-left: 2%;
+    width:50%;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.gerer_ins_etd{
+    display: inline-block;
+    width: 90%;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 4%;
+    background-color:orange;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.gerer_ins_etd input{
+    display: inline-block;
+    width:30%;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 2%;
+    background-color: #c7f4e6;
+    font-weight: bold;
+    font-family: "arial black";
+    color: #0099cc;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    cursor: pointer;
+    border-style: outset;
+}
+.gerer_ins_etd input:hover{
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    background-color: #0099cc;
+    border-style: dashed;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    color: yellow;
+}
+
+.nav_etd{
+    display: block;
+    position: fixed;
+    width: 99%;
+    height:7%;
+    padding: 0%;
+    margin: 0%;
+    top:0%;
+    left:0.5%;
+    /*background-color: orange;*/
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+.nav_etd input{
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    margin-left:0.05%;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    width:24.45%;
+    height:98%;
+    font-size: 1em;
+    font-family: "Tw Cen MT";
+    font-weight: bold;
+    border-radius: 4px;
+    -webkit-border-radius: 4px; 
+    background-color: #009640;
+    border: outset 2px #009640;
+    cursor: pointer;
+    color:#c7f4e6;
+}
+.nav_etd input:hover{
+    background-color: #009999;
+    border:2px white dashed;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    border-radius: 7px;
+    -webkit-border-radius: 7px; 
+}
+.div_etd{
+    display: block;
+    padding: 0%;
+    margin: 0%;
+    margin-top:5%;
+    width:100%;
+    height:150%;
+    /*background-color: salmon;*/
+}
+.div_etd div{
+    display: block;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 1%;
+    height:50%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 1px 1px 3px 1px;
+    /*background-color: magenta; */
+}
+.div_etd em{
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding-left: 1%; 
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #006666;
+    vertical-align: top;
+    color: #c7db71;
+}
+.div_etd strong{
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding-left: 0.5%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #ccffcc;
+    vertical-align: top;
+}
+
+.image_p_etd{
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    width:25%;
+    height:80%;
+}
+.img_etd{
+    display: inline-block;
+    width:100%;
+    height:80%;
+    float: left;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    box-shadow: 1px 1px 2px 1px black;
+    -webkit-box-shadow: 1px 1px 2px 1px black;
+}
+.inf_etd{
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    float: right;
+    width:73%;
+    height:80%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    /* background-color: yellow;*/
+}
+.inf_etd em{
+    width:28%;
+    height:22%;
+}
+
+.inf_etd strong{
+    width:65%;
+    height:22%;
+}
+.nais_etd{
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    float: bottom;
+    width:100%;
+    height:15%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    /*background-color: green;*/
+}
+.nais_etd em{
+    width: 18%;
+    height:90%;
+    margin-bottom: 1%;
+}
+.nais_etd strong{
+    width: 27%;
+    height:90%;
+    margin-bottom: 1%;
+}
+
+.div_2_etd em{
+    width: 18%;
+    margin-bottom: 1%;
+}
+.div_2_etd strong{
+    width: 27%;
+    margin-bottom: 1%;
+}
+
+.div_3_etd em{
+    width: 18%;
+    margin-bottom: 1%;
+}
+.div_3_etd strong{
+    width: 27%;
+    margin-bottom: 1%;
+}
+.div_4_etd input{
+    display: inline-block;
+    width:40%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    cursor: pointer;
+    background-color: #00b6c9;
+    font-weight: bold;
+    margin-left: 5%;
+}
+.div_4_etd input:hover{
+    background-color:  #00c95b;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    border-radius: 6px;
+    color:white;
+}
+/*style pour les menu d'un etudiant*/
+.p_etd_menu{
+    display: block;
+    margin-top:5%;
+    padding-left: 1%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 1px 1px 2px 1px #0099cc;
+    -webkit-box-shadow: 1px 1px 2px 1px #0099cc;
+    font-family: "Tw Cen MT";
+}
+.rec_etd{
+    margin-top:0.5%;
+    border: 1px solid #00072e;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: 1px 1px 2px 1px #00072e;
+    -webkit-box-shadow: 1px 1px 2px 1px #00072e;
+}
+.rec_etd span{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    word-wrap: break-word;
+    vertical-align: top;
+    background-color: #c1e2ea;
+    border:2px white solid;
+}
+.rec_etd .type_contenu_rec,.rec_etd .date_etat_rec,.rec_etd .btn_rec{
+    background:none;
+    border:none;
+}
+.rec_etd .type_contenu_rec{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width:60%;
+    margin-left: 1%;
+}
+.rec_etd .type_contenu_rec .type_rec{
+    display: inline-block;
+    width:98%;
+    padding: 0.5%;
+    margin: 0.2%;
+}
+.rec_etd .type_contenu_rec .contenu_rec{
+    display: inline-block;
+    width:98%;
+    padding: 0.5%;
+    margin: 0.2%;
+}
+.rec_etd .date_etat_rec{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width:17%;
+    height:100%;
+    margin-left: 1%;
+}
+.rec_etd .date_etat_rec .date_rec{
+    display: inline-block;
+    width:98%;
+    padding: 0.5%;
+    margin: 0.2%;
+    margin-bottom: 0.3%;
+}
+.rec_etd .date_etat_rec .etat_rec{
+    display: inline-block;
+    width:98%;
+    padding: 0.5%;
+    margin: 0.2%;
+    margin-top: 0.3%;
+}
+.rec_etd .btn_rec{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width:16%;
+    margin-left: 1%;
+    height:100%;
+}
+.rec_etd .btn_rec input{
+    height:45%;
+    margin:1%;
+    width:95%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #0099cc;
+    cursor: pointer;
+    border: 2px outset #0099cc;
+}
+.rec_etd .btn_rec input:hover{
+    background-color: #0099ff;
+    border: 2px dashed white;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    box-shadow: 1px 1px 3px 1px black;
+    -webkit-box-shadow: 1px 1px 2px 1px black;
+}
+/*le style pour les diplome*/
+.dip_etd{
+    width:98%;
+    height:10%;
+    background-color: #0dac61;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    box-shadow: 1px 1px 3px 2px black;
+    -webkit-box-shadow: 1px 1px 3px 2px black;
+    padding: 1%;
+}
+.dip_etd em{
+    display: inline-block;
+    width:30%;
+    padding: 0.1%;
+    margin-left: 3%;
+    background-color: #999999;
+    color:#ffffcc;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+.dip_etd strong{
+    display: inline-block;
+    width:60%;
+    padding: 0.1%;
+    margin-left:2%;
+    background-color: #0f2048;
+    color: white;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+/*pour situation pedagogique*/
+fieldset{
+    margin: 0%;
+    padding: 0.2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border: 2px ridge #0006c9;
+    border-top: none;
+}
+.situ_mod{
+    border-collapse: collapse;
+    width: 98%;
+    background-color: #a4ffbb;
+    font-family:"Tw Cen MT"; 
+    margin-left: 1%;
+    margin-top: 1%; 
+}
+.situ_mod caption{
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    background-color: #65a46f;
+    caption-side: top;
+}
+.situ_mod td,.situ_mod th{
+    border:1px orange solid;
+}
+.situ_act_mod{
+    border-collapse: collapse;
+    width: 98%;
+    font-family:"Tw Cen MT"; 
+    margin-left: 1%;
+    margin-top: 1%; 
+}
+.situ_act_mod tr{
+       background-color: #ffc89a;
+}
+.situ_act_mod caption{
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    background-color: #ff9922;
+    caption-side: top;
+}
+.situ_act_mod td,.situ_act_mod th{
+    border:1px #4000f2 solid;
+}

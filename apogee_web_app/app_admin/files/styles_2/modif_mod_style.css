@@ -1,0 +1,62 @@
+/* 
+    Document   : modif_mod_style
+    Created on : 5 févr. 2015, 22:21:24
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+    background-color: white;
+    padding: 0.5%;
+}
+form p{
+    margin: 1%;
+}
+form p em{
+    display: inline-block;
+    padding: 1%;
+    width:25%;
+    margin-left: 1%;
+    margin-right: 1%;
+    vertical-align: top;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #990f2f;
+}
+form p strong{
+    display: inline-block;
+    padding: 1%;
+    width:65%;
+    margin-left: 1%;
+    vertical-align: top;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #990f2f;
+
+}
+form p input,form p select{
+    display: inline-block;
+    margin: 0%;
+    padding: 1%;
+    width: 96%;
+    height: 96%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#md_md{
+    background-color: #00ccff;
+    cursor: pointer;
+    width: 90%;
+    margin-left: 3%;
+    border-color: #990f2f;
+}
+#md_md:hover{
+    background-color: #00d795;
+    cursor: pointer;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+}

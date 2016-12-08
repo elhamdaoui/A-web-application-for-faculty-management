@@ -1,0 +1,226 @@
+/* 
+    Document   : actualites_prof_style
+    Created on : 18 févr. 2015, 01:03:11
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    background-color: white;
+}
+.conte{
+    display: block;
+    width:95%;
+    margin: 0%;
+    height:100%;
+    padding: 0%;
+    background-color: wheat;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    font-family:"Tw Cen MT";
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 0.1%;
+}
+.actualite{
+    display: block;
+    width:100%;
+    height:90%;
+    margin: 0%;
+    padding: 0%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: green;
+}
+.img_ac{
+    display: inline-block;
+    width:22%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    float: right;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    vertical-align: top;
+}
+.img_ac img{
+    display: block;
+    position: relative;
+    vertical-align: top;
+    margin: 0%;
+    padding: 0%;
+    width:100%;
+    height:90%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+article{
+    display: inline-block;
+    width:75%;
+    margin: 0%;
+    padding: 0%;
+    float: left;
+    vertical-align: top;
+    /*background-color: gray;*/
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.titre{
+    display: inline-block;
+    width:100%;
+    height:10%;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border:1px gray solid;
+    /* background-color: blue;*/
+}
+.contenu{
+    display: inline-block;
+    width:100%;
+    height:87%;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 2%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /* background-color: navy;*/
+}
+.infos{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #d17495; /*#f684ac;*/
+}
+#acc_date{
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    float:right;
+}
+.btn_actalite{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.btn_actalite input{
+    display: inline-block;
+    border:none;
+    cursor: pointer;
+    float: bottom;
+    color: #00a8a8;
+}
+mark{
+    background-color: #d17495; /*#f684ac;*/
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+/*les actualites */
+.out_in_add{
+    display:inline-block;
+    width:90%;
+    margin-left:5%;
+    border:2px black solid;
+    background-color: wheat;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.out_in_add form{
+    display: inline-block;
+    height:100%;
+    width: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.t_c_acc{
+    display: inline-block;
+    width:79%;
+    height:80%;
+    float: left;
+    vertical-align: top;
+    margin: 0%;
+    padding: 0%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#titre_acc_mod{
+    display: inline-block; 
+    width:99%;
+    margin: 0%;
+    margin-bottom: 1%;
+    border: 1px solid #00a8a8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#contenu_acc_mod{
+    display: inline-block;
+    width:99%;
+    margin: 0%;
+    border-radius: 5px;
+    border: 1px solid orange;
+    -webkit-border-radius: 5px;
+}
+#titre_acc_mod:focus,#contenu_acc_mod{
+    box-shadow: 1px 1px 2px 1px #e40f6f;
+}
+.im_im_acc{
+    display: inline-block;
+    width:20%;
+    height:80%;
+    float:right;
+    vertical-align: top;
+    margin: 0%;
+    padding: 0%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#img_acc_mod{
+    display: inline-block; 
+    margin: 0%;
+    padding: 0%;
+    width:100%;
+    height:9%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#image_acc_mod{
+    display: inline-block; 
+    margin: 0%;
+    padding: 0%;
+    width:100%;
+    height:90%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.acc_submit{
+    display: inline-block;
+    width: 80%;
+    vertical-align: bottom; 
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#valid_mod_acc{
+    display: inline-block;
+    width: 50%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-weight: bold;
+    padding: 1%;
+    background-color: #00a867;
+    cursor: pointer;
+}

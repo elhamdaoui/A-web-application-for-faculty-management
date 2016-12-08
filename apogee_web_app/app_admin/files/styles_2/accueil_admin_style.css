@@ -1,0 +1,365 @@
+/* 
+    Document   : accueil_admin_style
+    Created on : 12 janv. 2015, 21:07:12
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body { 
+    display: block;
+    background-color: white;/*#333333;*/
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 0.4%;
+    padding-top: 0.2%;
+}
+
+header{
+    position: absolute;
+    display: inline-block;
+    background-color:	#999999;
+    width:99%;
+    height:40%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    padding:0%;
+
+}
+.libele_fct{
+    position: absolute;
+    display: inline-block;
+    top:7%;
+    left:3%;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 1%; 
+    background-color:	#0033CC;
+    color: white;
+    width:7%;
+    height:25%;
+    border-radius: 0px 35px 30px 35px;
+    text-align: center;
+    font-family: "arial black";
+    font-weight: bold;
+    overflow: hidden;
+}
+#profile{
+    position: absolute;
+    display: inline-block;
+    right:0.5%;
+    width:40%;
+    height:60%;
+    bottom:1%; 
+    padding:0%;
+    margin:0%;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    /*background-color: orange;*/
+}
+.imgProfile{
+    position: absolute;
+    display: inline-block;
+    width:30%;
+    height:96%;
+    bottom:1%;
+    right:0.5%;
+    border-radius: 10% 10% 10% 0%;
+    border-radius: 10% 10% 10% 0%;
+    box-shadow: 1px 1px 3px 1px black;
+    -webkit-box-shadow: 1px 1px 3px 1px black;
+}
+#nom_profile{
+    position: absolute;
+    display: inline-block;
+    color:white;
+    right:30.7%;
+    bottom:1%;
+    height:15%;
+    width:67%;
+    padding-right:0.5%;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family:  Tw Cen MT,andalus;
+    text-align: right;
+    background-color: #0099ff;
+    overflow: hidden;
+    border-radius:  15px 0px 0px 15px;
+    -webkit-border-radius: 15px 0px 0px 15px;
+    cursor: pointer;
+}
+#optionsProfile{
+    position: absolute;
+    display: none;
+    right:30.7%;
+    width:67%;
+    padding:0%;
+    margin: 0%;
+    bottom:14%;
+    height:82%;
+    /*background-color: orange;*/
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: Tw Cen MT,andalus;
+    text-decoration:none;
+    border-radius: 10% 10% 0% 10%;
+    -webkit-border-radius: 10% 10% 0% 10%;
+}
+#deconect{
+    position: absolute;
+    display: inline-block;
+    right:0.5%;
+    width:90%;
+    height:22%;
+    background: #00072e;
+    padding-right:0.5%;
+    text-decoration:none;
+    bottom:4%;
+    color: white;
+    border-radius: 15px 0% 0% 15px;
+    -webkit-border-radius: 15px 0% 0% 15px;
+    cursor: pointer;
+}
+#deconect:hover{
+    width:99.5%;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    background-color: #d6f600;
+
+}
+#param{
+    position: absolute;
+    display: inline-block;
+    right:0.5%;
+    width:80%;
+    height:22%;
+    background: #0033CC;
+    padding-right:0.5%;
+    text-decoration:none;
+    bottom:29%;
+    color: white;
+    border-radius: 15px 0% 0% 15px;
+    -webkit-border-radius: 15px 0% 0% 15px;
+    cursor: pointer;
+}
+#param:hover{
+    width:99.5%;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    background-color:#12c066;
+
+}
+.a_ad{
+    position: absolute;
+    display: inline-block;
+    width:30%;
+    height:40%;
+    overflow: hidden;
+    background-color: #0033CC;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 1px 1px 3px 1px black;
+    -webkit-box-shadow: 1px 1px 3px 1px black;
+    cursor: pointer;
+    font-family: Tw Cen MT,andalus, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-decoration:none;
+}
+.a_ad label{
+    cursor: pointer;
+    text-align: center;
+    top: 20%;
+    left:0%;
+    height:60%;
+    width:100%;
+    position: absolute;
+    display: inline-block;
+}
+#a_ad_a{
+    left:2%;
+    top:3%;
+}
+#a_ad_a:hover{
+
+    transform: rotateX(30deg) skewX(8deg) ;
+    transition-duration: 1s;
+    -webkit-transform: rotateX(30deg) skewX(8deg) ;
+    -webkit-transition-duration: 1s;
+    background-color:	#0033CC;
+}
+#a_ad_b{
+    left:34%;
+    top:3%;
+}
+#a_ad_b:hover{
+    transform: rotateX(-30deg) skewX(0deg) ;
+    transition-duration: 1s;
+    -webkit-transform: rotateX(-30deg) skewX(0deg) ;
+    -webkit-transition-duration: 1s;
+    background-color: #0033CC;
+}
+#a_ad_c{
+    left:66%;
+    top:3%;
+}
+#a_ad_c:hover{
+    transform: rotateX(30deg) skewX(-8deg) ;
+    transition-duration: 1s;
+    -webkit-transform: rotateX(30deg) skewX(-8deg) ;
+    -webkit-transition-duration: 1s;
+    background-color: #0033CC;
+}
+#a_ad_d{
+    left:17%;
+    bottom:3%;
+}
+#a_ad_d:hover{
+    transform: rotateX(-30deg) skewX(8deg) ;
+    transition-duration: 1s;
+    -webkit-transform: rotateX(-30deg) skewX(8deg) ;
+    -webkit-transition-duration: 1s;
+    background-color: #0033CC;
+}
+#a_ad_e{
+    left:49%;
+    bottom:3%;
+}
+#a_ad_e:hover{
+    transform: rotateX(-30deg) skewX(-8deg) ;
+    transition-duration: 1s;
+    -webkit-transform: rotateX(-30deg) skewX(-8deg) ;
+    -webkit-transition-duration: 1s;
+    background-color: #0033CC;
+}
+section{
+    position: absolute;
+    display: inline-block;
+    background-color: white;
+    top: 41%;
+    width:99%;
+    height:53%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+section form{
+    position: absolute;
+    display: inline-block;
+    background-color:	#0033CC;
+    width:45%;
+    left:10%;
+    height:80%;
+	margin-left:17%;
+    top:9%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+section form p{
+    position: absolute;
+    display: inline-block;
+    width:90%;
+    text-align:center;
+    font-size: large;
+    font-family: Tw Cen MT; 
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    margin-top: 3%;
+    top:0%;
+}
+section div{
+    height:13%;
+    padding: 0%;
+    margin:1%;
+    margin-top: 0%;
+}
+section form label{
+    display: inline-block;
+    width:20%;
+    height:75%;
+    text-align: right;
+    color: wheat;
+    font-weight: bold;
+    background-color:	#0033CC;
+    padding: 0%;
+    padding-top:1%;
+    padding-right:1%;
+    margin-top: -1%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    background-color: #8a8d8b;
+    font-family: "Tw Cen MT";
+}
+.cnx_auto_lab{
+    width:40%;
+    height:60%;
+}
+section form input{
+    display: inline-block;
+    width:69%;
+    height:80%;
+    margin-left:3%; 
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    font-family: "Tw Cen MT";
+}
+
+.cnx_auto_in{
+    width:20%;
+    height:40%;
+    margin:0%;
+    margin-top:2%;
+}
+#connect_admin{
+    background-color: #0033CC;
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer;
+	margin-left:15%;
+}
+#connect_admin:hover{
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    background-color: #32ef9a;
+    border-style: ridge;
+}
+#cnt_false{
+    position: absolute;
+    background-color:rgba(0,0,0,0);
+    color: #ff3399;
+    text-shadow: 1px 1px 2px white;
+    height:5%;
+    width:30%;
+    text-align: right;
+    right:1%;
+    top:55%;
+}
+footer{
+    position: absolute;
+    display: inline-block;
+    width:99%;
+    height:4%;
+    bottom:0.5%;
+    text-align: center;
+    font-family: andalus;
+    font-size: 1em;
+    color: black;
+    border:1px #0033CC solid;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+footer p{
+    position: absolute;
+    display: inline-block;
+    height:90%;
+    right:1%;
+    top:-5%;
+    margin-top: 0%;
+    padding-top: 0%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+

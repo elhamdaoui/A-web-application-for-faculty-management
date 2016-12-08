@@ -1,0 +1,115 @@
+/* 
+    Document   : ajout_prof_style
+    Created on : 30 janv. 2015, 19:08:39
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.titre{
+    margin-left: 8%;
+    width:80%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    box-shadow: 1px 1px 2px 2px black;
+    -webkit-box-shadow: 1px 1px 2px 2px black;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    padding: 1%;
+    color: #c1e2ea;
+    background-color: #000099;
+}
+.form_prof{
+    display: inline-block;
+    margin: 0%;
+    padding: 1%;
+    width:80%;
+    height:70%;
+    margin-left: 8%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    box-shadow: 1px 1px 2px 2px black;
+    -webkit-box-shadow: 1px 1px 2px 2px black;
+    background-color: #000025;
+}
+.form_prof div{
+    margin: 1%;
+}
+.form_prof label{
+    display: inline-block;
+    width:19%;
+    vertical-align: top;
+    padding-left: 1%;
+    background-color: #c1e2ea;
+    color: #000025;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+#sexe{
+    background-color: #ffae25; 
+    margin-left: 2%;
+    margin-right: 0%;
+    width:13%;
+}
+.form_prof input{
+    display: inline-block;
+    width:42%;
+    vertical-align: top;
+    margin-left: 2%;
+    background-color: #c65e5b;
+    color: #000025;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+#sexe_f,#sexe_h{
+    width:3%;
+    padding-left: 0%;
+}
+.form_prof select{
+    display: inline-block;
+    width:13%;
+    vertical-align: top;
+    margin-left: 2%;
+    background-color: #c65e5b;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    -webkit-border-radius: 4px; 
+}
+.btn input{
+    border: 2px #c65e5b outset;
+    background-color: #0099cc;
+    font-weight: bold;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    cursor: pointer;
+}
+.btn input:hover{
+    border: 2px white dashed;
+    background-color: #009933;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+#image,#message{
+    position: absolute;
+    display: none;
+    top:15%;
+    right:12%;
+    width:18%;
+    height: 25%;
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    box-shadow: 1px 1px 2px 3px black;
+    -webkit-box-shadow: 1px 1px 2px 3px black;
+    background-color: white;
+    color: red;
+    text-align: justify;
+}

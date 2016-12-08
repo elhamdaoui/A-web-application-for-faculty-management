@@ -1,0 +1,152 @@
+/* 
+    Document   : coordoner_style
+    Created on : 12 févr. 2015, 23:46:26
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+
+}
+.anne{
+    display: block;
+    margin: 0%;
+    padding: 0.3%;
+    margin-bottom: 2%;
+    width:99%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    box-shadow: 1px 1px 2px 2px black;
+    -webkit-box-shadow: 1px 1px 2px 2px black;
+    border:none;
+    /*background-color: #33ccff;*/
+}
+.anne .valid_anne{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width:18%;
+    height:90%;
+    text-align: center;
+    background-color: #66ff66;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    font-weight: bold;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    text-align: justify;
+    cursor: pointer;
+    vertical-align: bottom;
+    /*border:2px groove #ff3333;*/
+}
+.anne fieldset{
+    padding: 0.1%;
+    border:none;
+}
+.anne legend{
+    text-align: center;
+}
+.anne .semestre{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width: 39%;
+    margin-right: 1%;
+    background-color: wheat;
+    vertical-align: top;
+    font-family: "arial black";
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    overflow: hidden;
+}
+.anne .semestre fieldset{
+    display: none;
+    padding: 0.3%;
+    margin: 0%;
+    overflow: hidden;
+}
+.anne .semestre p{
+    cursor: pointer;
+}
+.anne .semestre fieldset p{
+    display: inline-block;
+    padding: 0.3%;
+    margin: 0%;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    background-color: #ffffcc;
+    margin-left: 2.5%;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+    width: 95%;
+}
+.anne .semestre fieldset p:hover{
+    background-color: #ff9966;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+}
+.anne .semestre .btn_sem,.anne .semestre .val_btn_sem{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width:99.8%;
+    text-align: center;
+    font-weight: bold;
+    font-family:"Tw Cen MT";
+    font-size: large;
+    color: white;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background-color: #01002f;
+    cursor: pointer;
+    vertical-align: top;
+    z-index: 10;
+}
+.anne .semestre .val_btn_sem{
+    background-color: #00d15b;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    vertical-align: bottom;
+}
+
+/**/
+.tab_etds{
+    border-collapse: collapse;
+    width: 100%;
+    /*background-color: #a4ffbb;*/
+    font-family:"Tw Cen MT"; 
+}
+.tab_etds caption{
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    background-color: #65a46f;
+    caption-side: top;
+}
+.infos_md th{
+    border:1px solid black;
+    background-color: white;
+    text-align: left;
+}
+.infos_md .libele{
+    background-color: #ccff66;
+}
+.tab_etds td{
+    border:1px solid black;
+}
+.mdls th{
+    background-color: #5396c6;
+    border:1px solid black;
+}
+.tab_etds th input{
+    display:inline-block;
+    width:95%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+input[type="text"]:focus{
+    box-shadow: 1px 1px 2px 2px #00cccc;
+}

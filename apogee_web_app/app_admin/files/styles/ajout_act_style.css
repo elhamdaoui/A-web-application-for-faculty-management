@@ -1,0 +1,88 @@
+/* 
+    Document   : affich_act_style
+    Created on : 26 janv. 2015, 23:56:43
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+form{
+    position:fixed;
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 2%;
+    margin-left:9%;
+    width: 80%;
+    height:80%;
+    background-color: white;/*#00cc33;*/
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+form div{
+    padding: 0%;
+    margin: 0%;
+    margin-top: 1%;
+    height: 10%;
+}
+form .description{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: "Tw Cen MT",andalus,sans-serif;
+    color: #4f4f4f;
+}
+form div label{
+    display: inline-block;
+    background-color: #00a877;
+    margin: 0%;
+    padding: 1%;
+    margin-left: 1%;
+    color: white;
+    width:18%;
+    height:70%;
+    font-size: large;
+    font-family: "arial black";
+    vertical-align: top;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+form div input,form div textarea{
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    border: 1px solid orange;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: 2%;
+    width:76%;
+    height: 99%;
+}
+
+.btns{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 5%;
+    width: 40%;
+    height:99%;
+    border: 3px #00a877 outset;
+    cursor: pointer;
+    font-size: larger;
+    background-color: #4faff6;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+.btns:hover{
+    border:1px dashed #0099cc;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    background-color: #02012d;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+}

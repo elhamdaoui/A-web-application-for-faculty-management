@@ -1,0 +1,114 @@
+/* 
+    Document   : gerer_act_style
+    Created on : 27 janv. 2015, 00:20:23
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    padding:1%;
+    background-color: white;
+}
+nav{
+    position: absolute;
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    top:0%;
+    left:0.5%;
+    height:20%;
+    width:99%;
+    /*background-color: white;*/
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    z-index: 2;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #430087;
+}
+.menu{
+    position: absolute;
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    padding-left:2%;
+    width:46%;
+    height:25%;
+    top:1%;
+    background-color: #89c9ac;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-size: large;
+    font-family:"arial black";
+}
+.menu:hover{
+    background-color: #00cc66;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    border: none;
+}
+ul{
+    position: absolute;
+    display: none;
+    padding: 0%;
+    margin: 0%;
+    width:48%;
+    top:26%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    list-style-type: none;
+    background-color: #4f4f4f;
+}
+li{
+    margin:1%;
+    border:1px solid orange;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    cursor: pointer; 
+    background-color: white;
+}
+li:hover{
+    background-color: #0099ff;
+    border-color: #0099ff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+}
+li a{
+    display: inline-block;
+    width:97%;
+    padding-left: 3%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+li a:hover{
+    color:white;
+}
+#a_aff,#u_aff{
+    left:1%;
+}
+#a_ajt,#u_ajt{
+    left:50%;
+}
+iframe{
+    position: absolute;
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    top:5.3%;
+    left:0.2%;
+    width:99.5%;
+    height:94%;
+    border:none;
+    border-radius: 8px 8px 10px 10px;
+    -webkit-border-radius: 8px;
+    border: 1px #00cc66 groove;
+    z-index: 1;
+}
+

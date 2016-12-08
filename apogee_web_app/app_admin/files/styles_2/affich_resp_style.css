@@ -1,0 +1,241 @@
+/* 
+    Document   : affich_resp_style
+    Created on : 15 janv. 2015, 01:26:14
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+
+}
+p{
+    border: 1px #009640 outset;
+    margin:1%;
+    background-color: #00a877;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding:0.3%;
+}
+p span{
+    display:inline-block;
+    width:23%;
+    /* background-color: yellow;*/
+    margin: 0.5%;
+}
+.lab{
+    display: inline-block;
+    background-color: #ffa65d;
+    overflow: hidden;
+    margin: 0%;
+    padding:0%;
+    margin-right: 1%;
+    width:38%;
+    height:10%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.val{
+    display: inline-block;
+    background-color: #02012d;
+    color:white;
+    overflow: hidden;
+    margin: 0%;
+    padding:0%;
+    width: 60%;
+    height:90%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#pht_ad{
+    display:inline-block;
+    width:80%;
+    margin:0%;
+    padding: 0%;
+    margin-right:1%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #9900ff;
+    border-style: outset;
+    cursor: pointer;
+    padding-bottom: 1%;
+}
+#pht_ad:hover{
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    background-color: #009640;
+}
+#pht_ad:active{
+    border-style: inset;
+}
+#mod_ad{
+    display:inline-block;
+    width:45%;
+    margin:0%;
+    padding: 0%;
+    padding-bottom: 1%;
+    margin-right:1%; 
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #c4d903;
+    border-style: groove;
+    cursor: pointer;
+}
+#mod_ad:hover{
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    background-color: #000099;
+}
+#mod_ad:active{
+    border-style: inset;
+}
+#sup_ad{
+    display:inline-block;
+    width:45%;
+    margin:0%;
+    padding: 0%;
+    padding-bottom: 1%;
+    margin-right:1%; 
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #c40154;
+    border-style: groove;
+    cursor: pointer;
+}
+#sup_ad:hover{
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    background-color: #ff3300;
+}
+#sup_ad:active{
+    border-style: inset;
+}
+.image{
+    position: fixed;
+    display: none;
+    right: 1%;
+    top:1%;
+    width:98%;
+    height:98%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: none;
+    background-color: #cdf28e;
+    background-color: #333333;
+    z-index: 10;
+    cursor: pointer;
+}
+.image #img{
+    position: absolute;
+    display: inline-block;
+    width:50%;
+    height:85%;
+    top:7.5%;
+    left:24.5%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    cursor: move;
+    border-style: ridge;
+}
+.image #img:hover{
+    transition-duration: 1s;
+    width:80%;
+    height:95%;
+    left:10%;
+    top:2.5%;
+}
+.image #imgmod{
+    position: absolute;
+    display: inline-block;
+    width:27%;
+    height:30%;
+    top:2%;
+    left:6%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    cursor: move;
+    border-style: outset;
+}
+.image #imgmod:hover{
+    border-style: inset;
+}
+.image #modifier_resp{
+    position: absolute;
+    display: inline-block;
+    left:6%;
+    top:40%;
+    width:31%;
+    height:8%;
+    cursor: pointer;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #009933;
+}
+.image #anuuler_resp{
+    position: absolute;
+    display: inline-block;
+    left:44%;
+    top:40%;
+    width:31%;
+    height:8%;
+    cursor: pointer;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #0099cc;
+}
+.image #em_fct{
+    position: absolute;
+    display: inline-block;
+    top:13%;
+    left:38%;
+    height:5%;
+    width:10%;
+    background-color: #cdf28e;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    padding-left:0.5%;
+}
+.image #fct_select{
+    position: absolute;
+    display: inline-block;
+    top:13%;
+    left:50%;
+    height:5%;
+    width:25%;
+}
+.image #em_fil{
+    position: absolute;
+    display: none;
+    top:20%;
+    left:38%;
+    height:5%;
+    width:10%;
+    background-color: #cdf28e;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    padding-left:0.5%;
+}
+.image #fil_select{
+    position: absolute;
+    display: none;
+    top:20%;
+    left:50%;
+    height:5%;
+    width:25%;
+}
+
+hr{
+    display: block;
+    background-color: #000099;
+    color: #000099;
+    width:90%;
+    margin: 0%;
+    margin-left: 4%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-style: ridge;
+}

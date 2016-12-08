@@ -1,0 +1,96 @@
+/* 
+    Document   : actualites_style
+    Created on : 20 févr. 2015, 01:54:55
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    font-family:"Tw Cen MT";
+}
+.nonacts{
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color:#006633;
+    font-size:  4em;
+    text-align: center;
+    text-shadow: 1px 1px 3px #ff6666;
+    font-family: "arial black";
+}
+.act{
+    display: block;
+    margin: 1%;
+    padding: 0.1%;
+    width:98%;
+    height:40%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border:1px #000066 solid;
+    background-color: #ffffcc;
+}
+.infs{
+    display: inline-block;
+    margin: 0%;
+    padding: 0.1%;
+    width:70%;
+    height:99%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    vertical-align: top;
+    float: left;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-color: #ffffcc; 
+}
+.tit{
+    display: block;
+    margin: 0%;
+    padding: 0.5%;
+    height:10%;
+    color:#000066;
+    font-weight: bold;
+    border-radius: 6px 6px 0px 0px;
+    -webkit-border-radius: 6px 6px 0px 0px;
+    background-color: #ffcda4;
+}
+.cont{
+    display: block;
+    margin: 0%;
+    padding: 0.5%;
+    margin-top: 0.3%;
+    margin-bottom: 0.3%;
+    height:70%;
+    background-color: #ccffcc;
+}
+.date{
+    display: block;
+    margin: 0%;
+    padding: 0.5%;
+    height:10%;
+    color: #ff6600;
+    font-weight: bold;
+    background-color: #fcceb4;
+    text-align: right;
+    border-radius: 0px 0px 6px 6px;
+    -webkit-border-radius: 0px 0px 6px 6px;
+}
+img{
+    display: inline-block;
+    margin: 0%;
+    padding: 0.1%;
+    margin-left: 1%;
+    width:27%;
+    height:99%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    vertical-align: top;
+    float: right;
+    background-color: #ffffcc; 
+}

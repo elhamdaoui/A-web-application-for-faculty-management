@@ -1,0 +1,310 @@
+/* 
+    Document   : page_dept_style
+    Created on : 3 févr. 2015, 20:47:26
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+    padding: 0.5%;
+    background-color: white;
+}
+.nav_dep{
+    position: absolute;
+    display: inline-block;
+    width:98.5%;
+    height:5%;
+    top:1%;
+    left: 0.5%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background-color: wheat;
+    font-family: "arial black";
+}
+.nav_dep a{
+    display: inline-block;
+    position: absolute;
+    width:77%;
+    height: 95%;
+    padding-left: 2%;
+    left:0.5%;
+    top:0.5%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #09912a;
+}
+.nav_dep #options_dep{
+    display: inline-block;
+    position: absolute;
+    left:80%;
+    top:0.5%;
+    width:20%;
+    height:95%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #09912a;
+}
+.nav_dep ul{
+    list-style: none;
+    display: none;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    left:80%;
+    top:95.5%;
+    width:20%;
+    height:95%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+.nav_dep ul li{
+    display: block;
+    width:100%;
+}
+
+.nav_dep ul li input{
+    display: block;
+    width:100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    cursor: pointer;
+    background-color: #00cc2a;
+    color:white;
+    font-weight: bold;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border:none;
+}
+.nav_dep ul div li input{
+    background-color: #009966;
+}
+.nav_dep ul li input:hover{
+    background-color: #002152;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+}
+.corps_dep{
+    padding: 0%;
+    margin: 0%;
+    margin-top: 2%;
+    width:100%;
+    /*background-color: yellow;*/
+}
+#form_modif_dept{
+    display: inline-block;
+    width:80%;
+    margin-left: 8%;
+    margin-top: 2%;
+    padding: 1%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background-color: #04062a;
+    color:white;
+    border:none;
+    box-shadow: 1px 1px 2px 2px black;
+    -webkit-box-shadow: 1px 1px 2px 2px black;
+}
+#form_modif_dept em{
+    display: inline-block;
+    padding: 1%;
+    width:30%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background-color: #270607;
+}
+#form_modif_dept input,#form_modif_dept select{
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    padding: 1%;
+    width:60%;
+    margin-left: 5%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background-color: #081611;
+    color:white;
+    font-weight: bold;
+}
+#form_modif_dept select{
+    margin-left: 4.5%;
+    width:62%;
+}
+#form_modif_dept input[type="submit"]{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #22bb29;
+    border:2px outset #22bb29;
+    cursor: pointer;
+}
+#form_modif_dept input[type="submit"]:hover{
+    background-color: #22bbcd;
+    border:2px dashed white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+}
+.fils_departement{
+    padding: 0.5%;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: "andalus";
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-color: #1b1539;
+    color: #cccccc;
+    font-weight: bold;
+}
+.nms_fils{
+    display: inline-block;
+    text-decoration: none;
+    padding: 3%;
+    margin: 1%;
+    width:40%;
+    border: 2px groove #330000;
+    background-color: #330000;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: "arial black";
+    box-shadow: 1px 1px 2px 1px black;
+    -webkit-box-shadow: 1px 1px 2px 1px black;
+}
+.tit_mds{
+    border-radius: 8px;
+    padding: 1%;
+    -webkit-border-radius: 8px;
+    font-weight: bold;
+    font-family: "arial black";
+    font-size: large;
+    color: white;
+    background-color: #c2ba06;
+}
+.anne{
+    display: inline-block;
+    width: 30%;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 2%;
+    margin-bottom: 4%;
+    padding-bottom: 1%;
+    vertical-align: top;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    box-shadow: 1px 1px 2px 1px black;
+    -webkit-box-shadow: 1px 1px 2px 1px black;
+    background-color: #ff9900;
+}
+fieldset{
+    margin: 0%;
+    margin-bottom: 0.2%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+.semestre{
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 1%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background-color: #0066cc;
+}
+.semestre p{
+    padding: 0.5%;
+    margin-top: 0.3%;
+    margin-left: 0.5%;
+    width: 98%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border:1px solid yellow;
+    cursor: pointer;
+    /*background-color: #00c802;*/
+}
+.semestre p:hover{
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    box-shadow: 1px 1px 3px 3px #ff3399;
+    -webkit-box-shadow: 1px 1px 3px 2px #ff3399;
+    background-color: yellow;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    transform: translateX(2%);
+    -webkit-transform: translateX(1.5%);
+}
+.semestre p em,.semestre p i{
+    display: inline-block;
+    width: 12%;
+    margin-left: 1%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: yellow;
+}
+.semestre p i{
+    width: 20%;
+}
+.semestre p strong{
+    display: inline-block;
+    width: 60%;
+    margin-left: 1%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #00eb43;
+}
+#page_update_module{
+    display: none;
+    margin: 0%;
+    padding: 1%;
+    position: fixed;
+    top: 0%;
+    left:0%;
+    background-color: rgba(0,0,0,0.7);
+    width: 98%;
+    height:97%;
+}
+#page_update_module iframe{
+    position: absolute;
+    display: inline-block;
+    margin: 0%;
+    width:50%;
+    height:80%;
+    top:4%;
+    left:24%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border:2px white solid;
+}
+#page_update_module input{
+    position: absolute;
+    display: inline-block;
+    margin: 0%;
+    padding: 1.5%;
+    width:50%;
+    height:8%;
+    top:87%;
+    left:24%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border:2px white solid;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #99ff00;
+}

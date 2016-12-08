@@ -1,0 +1,156 @@
+/* 
+    Document   : page_prof_style
+    Created on : 8 févr. 2015, 18:11:07
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    padding: 0.5%;
+}
+#ip_prof{
+    display: inline-block;
+    width:98%;
+    height: 40%;
+    padding: 0.5%;
+    margin: 0%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-style: ridge;
+    border-color: #00ff33;
+    /*background-color: orange;*/
+}
+#ip_prof .image{
+    display: inline-block;
+    width:30%;
+    height: 80%;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 3%;
+    margin-top: 0.5%;
+    vertical-align: bottom;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    /*background-color: red;*/
+}
+#ip_prof .image img{
+    position: absolute;
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    width: 28%;
+    height:31%;
+    top:4%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    vertical-align: top;
+}
+#btn_iim{
+    margin: 0%;
+    padding: 0%;
+    vertical-align: bottom;
+}
+#ip_prof .image #modif_img_prof{
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 2%;
+    width: 99%;
+    height:30%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    vertical-align: bottom;
+    cursor: pointer;
+    font-weight: bold;
+}
+#ip_prof .image #modif_img_prof:hover{
+    background-color: #0f75ff;
+    color: white;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+}
+#ip_prof .infs{
+    display: inline-block;
+    width:60%;
+    height: 90%;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    /*background-color: yellow;*/
+}
+#ip_prof .infs em{
+    display: inline-block;
+    width:30%;
+    height: 10%;
+    padding: 0%;
+    margin: 1%;
+    padding-left: 1%;
+    border-radius: 10px 0px;
+    -webkit-border-radius: 10px 0px 10px 0px;
+    text-align: left;
+    background-color: #47c081;
+    color: white;
+}
+#ip_prof .infs strong{
+    display: inline-block;
+    width:55%;
+    height: 10%;
+    padding: 0%;
+    margin: 1%;
+    padding-left: 1%;
+    border-radius: 0px 10px;
+    -webkit-border-radius: 0px 10px 0px 10px;
+    background-color: #07b7bd;
+    color: white;
+}
+#md_prof{
+    display: inline-block;
+    width:98%;
+    height: 40%;
+    padding: 0.5%;
+    margin: 0%;
+    margin-top: 1%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-style: groove;
+    border-color: #00ff33;
+    /*background-color: orange;*/
+}
+#md_prof div{
+    margin: 0%;
+    padding: 0%;
+    margin-top: 1%;
+}
+#md_prof em,#md_prof h3,#md_prof input{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width: 18%;
+    margin-right: 1%;
+    margin-left: 0.7%;
+    padding-left: 1%;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#md_prof input[type="button"]{
+    cursor: pointer;
+    width:28%;
+    font-weight: bold;
+    color: #07b7bd;
+    border: none;
+}
+#md_prof input[type="button"]:hover{
+    background-color: #12c256;
+    color: white;
+}
+#md_prof h3{
+    width: 39%;
+    padding-left: 1%;
+}

@@ -1,0 +1,230 @@
+/* 
+    Document   : esp_admin_style
+    Created on : 13 janv. 2015, 19:19:11
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body { 
+    display: block;
+    background-color: white;/*#333333;*/
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 0.4%;
+    padding-top: 0.2%;
+}
+
+header{
+    position: absolute;
+    display: inline-block;
+    background-color: #003333;
+    width:99%;
+    height:10%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    padding:0%;
+}
+.libele_fct{
+     position: absolute;
+    display: inline-block;
+    top:7%;
+    left:3%;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 1%; 
+    background-color: #ff6914;
+    color: white;
+    width:7%;
+    height:65%;
+    border-radius: 0px 35px 30px 35px;
+    text-align: center;
+    font-family: "arial black";
+    font-weight: bold;
+    overflow: hidden;
+}
+#accueil_p{
+    position: absolute;
+    display: inline-block;
+    right:40.5%;
+    width:40%;
+    height:95%;
+    bottom:2%; 
+    padding:0%;
+    margin:0%;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    /* background-color: yellow;*/
+}
+#accueil_p a{
+    position: absolute;
+    display: inline-block; bottom:1%;
+    height:28%;
+    width:60%;
+    padding:0%;
+    margin:0%;
+    right:0.5%;
+    text-decoration: none;
+    font-family:  "Tw Cen MT",andalus;
+    color:white;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-right:2%;
+    background-color: #0099ff;
+    overflow: hidden;
+    border-radius:  15px 10px 10px 15px;
+    -webkit-border-radius: 15px 10px 10px 15px;
+
+}
+#accueil_p a:hover{
+    text-align: center;
+    background-color: #ff4b00;
+    transition-duration: 1s;
+}
+#profile{
+    position: absolute;
+    display: inline-block;
+    right:0.5%;
+    width:40%;
+    height:95%;
+    bottom:2%; 
+    padding:0%;
+    margin:0%;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    /*background-color: orange;*/
+}
+.imgProfile{
+    position: absolute;
+    display: inline-block;
+    width:20%;
+    height:98%;
+    bottom:1%;
+    right:0.5%;
+    border-radius: 10% 10% 10% 0%;
+    border-radius: 10% 10% 10% 0%;
+    box-shadow: 1px 1px 3px 1px black;
+    -webkit-box-shadow: 1px 1px 3px 1px black;
+}
+#nom_profile{
+    position: absolute;
+    display: inline-block;
+    color:white;
+    right:20.7%;
+    bottom:1%;
+    height:28%;
+    width:60%;
+    padding-right:0.5%;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family:  "Tw Cen MT",andalus;
+    text-align: right;
+    background-color: #0099ff;
+    overflow: hidden;
+    border-radius:  15px 0px 0px 15px;
+    -webkit-border-radius: 15px 0px 0px 15px;
+    cursor: pointer;
+}
+#optionsProfile{
+    position: absolute;
+    display: none;
+    right:20.7%;
+    width:62%;
+    padding:0%;
+    margin: 0%;
+    bottom:29%;
+    height:80%;
+    /*background-color: orange;*/
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: Tw Cen MT,andalus;
+    text-decoration:none;
+    border-radius: 10% 10% 0% 10%;
+    -webkit-border-radius: 10% 10% 0% 10%;
+}
+#deconect{
+    position: absolute;
+    display: inline-block;
+    right:0.5%;
+    width:90%;
+    height:38%;
+    background: #00072e;
+    padding-right:0.5%;
+    text-decoration:none;
+    bottom:3%;
+    color: white;
+    border-radius: 15px 0% 0% 15px;
+    -webkit-border-radius: 15px 0% 0% 15px;
+    cursor: pointer;
+}
+#deconect:hover{
+    width:97%;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    background-color: #d6f600;
+
+}
+#param{
+    position: absolute;
+    display: inline-block;
+    right:0.5%;
+    width:80%;
+    height:38%;
+    background: #00072e;
+    padding-right:0.5%;
+    text-decoration:none;
+    bottom:44%;
+    color: white;
+    border-radius: 15px 0% 0% 15px;
+    -webkit-border-radius: 15px 0% 0% 15px;
+    cursor: pointer;
+}
+#param:hover{
+    width:97%;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    background-color:#12c066;
+
+}
+iframe{
+    position: absolute;
+    display: inline-block;
+    background-color: #009966;
+    width:99%;
+    height:83%;
+    top:11%;
+    border:none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px 1px black;
+    -webkit-box-shadow: 1px 1px 3px 1px black;
+    -webkit-border-radius: 15px;
+}
+footer{
+    position: absolute;
+    display: inline-block;
+    width:99%;
+    height:4%;
+    bottom:0.5%;
+    text-align: center;
+    font-family: andalus;
+    font-size: 1em;
+    color: #333333;
+    border:1px #ccffcc solid;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+footer p{
+    position: absolute;
+    display: inline-block;
+    height:90%;
+    right:1%;
+    top:-5%;
+    margin-top: 0%;
+    padding-top: 0%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+

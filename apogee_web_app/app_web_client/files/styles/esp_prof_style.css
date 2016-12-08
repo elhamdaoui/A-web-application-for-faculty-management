@@ -1,0 +1,139 @@
+/* 
+    Document   : esp_prof_style
+    Created on : 8 févr. 2015, 02:57:41
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    
+    background-color: #971038;/* rgba(89,11,19,0.9) ;*/
+}
+.nav_prof,.des_nav_prof{
+    position: fixed;
+    display: inline-block;
+    margin: 0%;
+    padding: 0.2%;
+    left:0.3%;
+    top:0%;
+    width:7%;
+    height:95%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+   /* background-color: #116724;*/
+}
+.des_nav_prof{
+    left:7.7%;
+    width:9%;
+    background: none;
+}
+.nav_prof span,.des_nav_prof span{
+    display: inline-block;
+    margin: 0%;
+    padding: 0.1%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 95%;
+    height:10%;
+    background-color: #985424;
+    border: 3px #950007 outset;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    cursor: pointer;
+}
+
+.nav_prof span:hover{
+    box-shadow: 1px 1px 2px 2px #e6ff00;
+    -webkit-box-shadow: 1px 1px 2px 2px #e6ff00;
+    border-style: ridge;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+}
+.nav_prof span a{
+    display: inline-block;
+    width:100%;
+    height:100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background-size: 100% 100%;
+    text-decoration: none;
+}
+.des_nav_prof span{
+    background: none;
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    height: 10.3%;
+    border: none;
+    cursor: auto;
+}
+.des_nav_prof strong{
+    display: none;
+    margin: 0%;
+    padding: 1%;
+    width: 97%;
+    height:30%;
+    margin-top: 25%;
+    border-radius: 50px 5px 5px 50px;
+    -webkit-border-radius: 20px 5px 5px 20px;
+    background-color: #f8390b;
+    color: white;
+    text-align: center;
+}
+#acc_pf{
+    background-image: url('../icns/accueil.png'); 
+}
+#mod_pf{
+    background-image: url('../icns/modules.png'); 
+}
+#sem_pf{
+    background-image: url('../icns/semestre.png'); 
+}
+#acts_pf{
+    background-image: url('../icns/acts.png');
+}
+#decnx_pf{
+    background-image: url('../icns/deconnexion.png'); 
+}
+a img{
+    display: inline-block;
+    width:100%;
+    height:100%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+iframe{
+    display: inline-block;
+    position: fixed;
+    margin: 0%;
+    padding: 0%;
+    left:8.2%;
+    top: 0.5%;
+    width:91%;
+    height:95%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border: none;
+}
+footer{
+    display: inline-block;
+    position: fixed;
+    margin: 0%;
+    padding: 0%;
+    width:98.7%;
+    height:3.5%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    background-color: #34bdf4;
+    top: 96.2%;
+    left:0.3%;
+    padding-right: 0.5%;
+    font-size: small;
+    text-align: right;
+}

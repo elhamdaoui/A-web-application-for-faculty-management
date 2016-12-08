@@ -1,0 +1,396 @@
+/* 
+    Document   : page_etd_style
+    Created on : 21 févr. 2015, 01:37:14
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    padding: 0.2%; 
+    /*background-color: white;*/
+    background-color: rgba(250,255,255,0.5);
+
+}
+input:focus{
+    box-shadow: 1px 1px 2px 1px #ff3366;
+    -webkit-box-shadow: 1px 1px 2px 1px #ff3366;
+    border-color: #ff3366;
+}
+.mninfs{
+    display: inline-block;
+    width:80%;
+    padding: 2%;
+    padding-top: 0.5%;
+    padding-left: 10%;
+
+}
+.mninfs p{
+    display: block;
+    width:100%;
+    margin-top: 1%;
+    height:6%;
+}
+.mninfs em{
+    display: inline-block;
+    width:40%;
+    padding: 1.5%;
+    margin-right: 5%;
+    font-weight: bold;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #ffcc99;
+    color: #0f0f4d;
+    vertical-align: top;
+}
+.mninfs strong{
+    display: inline-block;
+    width:40%;
+    padding: 1.5%;
+    font-weight: bold;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background-color: #d1eef2;
+    color: #05012a;
+    vertical-align: top;
+}
+.param_cmpte{
+    display: inline-block;
+    margin: 0%;
+    padding: 0.5%;
+    width:80%;
+    height:60%;
+    margin-top: 10%;
+    margin-left: 9%;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    background-color: #04062c;
+    box-shadow: 1px 1px 2px 2px black;
+    -webkit-box-shadow: 1px 1px 2px 2px black;
+    border: none;
+}
+.param_cmpte div{
+    width:100%;
+    margin-bottom: 1%;
+}
+#mod_com_tit{
+    text-align: center;
+    color:wheat;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: "Tw Cen MT","arial black";
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.param_cmpte div label{
+    display: inline-block;
+    margin: 0%;
+    padding: 1%;
+    width:30%;
+    margin-right: 3%;
+    border-radius:6px;
+    -webkit-border-radius:6px;
+    background-color: #fddbab;
+    vertical-align: top;
+}
+.param_cmpte div input{
+    display: inline-block;
+    margin: 0%;
+    padding: 1%;
+    width:60%;
+    margin-right: 3%;
+    border-radius:6px;
+    -webkit-border-radius:6px;
+    background-color: white;
+    vertical-align: top;
+}
+#modifier_compte,#mdpwdbtn{
+    width:90%;
+    background-color: #14a7c3;
+    cursor: pointer;
+    border:1px groove white;
+    font-weight: bold;
+}
+#modifier_compte:hover{
+    transition-duration:1s;
+    -webkit-transition-duration:1s;
+    background-color: #14c374;
+    border:1px dashed white;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+}
+/*affichages des actualites dans mon espace*/
+.act{
+    display: block;
+    margin: 1%;
+    padding: 0.1%;
+    width:98%;
+    height:40%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border:1px #000066 solid;
+    background-color: #ffffcc;
+}
+.infs{
+    display: inline-block;
+    margin: 0%;
+    padding: 0.1%;
+    width:70%;
+    height:99%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    vertical-align: top;
+    float: left;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    background-color: #ffffcc; 
+}
+.tit{
+    display: block;
+    margin: 0%;
+    padding: 0.5%;
+    height:10%;
+    color:#000066;
+    font-weight: bold;
+    border-radius: 6px 6px 0px 0px;
+    -webkit-border-radius: 6px 6px 0px 0px;
+    background-color: #ffcda4;
+}
+.cont{
+    display: block;
+    margin: 0%;
+    padding: 0.5%;
+    margin-top: 0.3%;
+    margin-bottom: 0.3%;
+    height:70%;
+    background-color: #ccffcc;
+}
+.date{
+    display: block;
+    margin: 0%;
+    padding: 0.5%;
+    height:10%;
+    color: #ff6600;
+    font-weight: bold;
+    background-color: #fcceb4;
+    text-align: left;
+    font-size: small;
+    border-radius: 0px 0px 6px 6px;
+    -webkit-border-radius: 0px 0px 6px 6px;
+}
+.date g{
+    float: right;
+}
+img{
+    display: inline-block;
+    margin: 0%;
+    padding: 0.1%;
+    margin-left: 1%;
+    width:27%;
+    height:99%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    vertical-align: top;
+    float: right;
+    background-color: #ffffcc; 
+}
+/*pour la partie  Mes professeurs*/
+.monprof{
+    display: inline-block;
+    margin: 2%;
+    padding: 0.1%;
+    width:40%;
+    font-family: "Tw Cen MT","arial black";
+    font-weight: bold;
+    border-radius: 10px 3px 10px 3px;
+    -webkit-border-radius: 10px 3px 10px 3px;
+    border: 1px #ff6600 solid;
+}
+.monprof img{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height:35%;
+    border-radius: 10px 3px 10px 3px;
+    -webkit-border-radius: 10px 3px 10px 3px;
+    vertical-align: top;
+}
+.monprof div{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width:100%;
+    height: 6%;
+    padding-top: 3%;
+    margin-top: 0.3%;
+    border-radius: 10px 3px 10px 3px;
+    -webkit-border-radius: 10px 3px 10px 3px;
+    background-color: #a3a3ff;
+}
+.monprof div strong{
+    float: left;
+    padding-left: 0.5%;
+    color:#fcf53b;
+}
+/*pour la partie mes diplomes*/
+.dips{
+    display: block;
+    margin-top: 4%;
+    margin-left: 24%;
+    margin-bottom: 3%;
+    width:50%;
+    height:40%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border:2px #4fee78 ridge;
+}
+.dips div{
+    display: block;
+    width:97%;
+    margin-bottom: 0.6%;
+    margin-top: 1%;
+    padding-left: 1.5%;
+    font-family: "Tw Cen MT","arial black";
+    height: 18%;
+}
+.dips div g{
+    display: inline-block;
+    padding: 0.5%;
+    margin-right: 4%;
+    padding-top: 2.5%;
+    padding-left: 2%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    width:30%;
+    height:70%;
+    background-color: #23a89c;
+}
+.dips div strong{
+    display: inline-block;
+    padding: 0.5%;
+    padding-top: 2.5%;
+    width:61%;
+    height: 70%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #bff1cc;
+}
+.poster_reclms{
+    display: block;
+    width:98%;
+    margin-left: 1%;
+    border: 1px orange groove;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+.poster_reclms div{
+    display: inline-block;
+    width:98%;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+.poster_reclms label{
+    display: inline-block;
+    width:30%;
+    height: 5%;
+    padding: 1%;
+    margin-right: 4%;
+    vertical-align: top;
+    background-color: #2392ae;
+    border-radius: 7px;
+    font-weight: bold;
+    -webkit-border-radius: 7px;
+}
+.poster_reclms select,.poster_reclms textArea{
+    display: inline-block;
+    width:50%;
+    border-radius: 7px;
+    vertical-align: top;
+    -webkit-border-radius: 7px;
+}
+.poster_reclms input{
+    display: inline-block;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #23e786;
+    font-weight: bold;
+    width:40%;
+    cursor: pointer;
+}
+/*pour afficher les reclms*/
+.reclms{
+    border-collapse: collapse;
+    width: 98%;
+    background-color: #a4ffbb;
+    font-family:"Tw Cen MT"; 
+    margin-left: 1%;
+    margin-top: 2%;
+}
+.reclms caption{
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    background-color: #65a46f;
+    caption-side: top;
+}
+.reclms td,.reclms th{
+    border:1px orange solid;
+}
+/*pour la situation pedagogique*/
+fieldset{
+    margin: 0%;
+    padding: 0.2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    border: 2px ridge #0006c9;
+    border-top: none;
+}
+.situ_mod{
+    border-collapse: collapse;
+    width: 98%;
+    background-color: #a4ffbb;
+    font-family:"Tw Cen MT"; 
+    margin-left: 1%;
+    margin-top: 1%; 
+}
+.situ_mod caption{
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    background-color: #65a46f;
+    caption-side: top;
+}
+.situ_mod td,.situ_mod th{
+    border:1px orange solid;
+}
+.situ_act_mod{
+    border-collapse: collapse;
+    width: 98%;
+    background-color: #ffc89a;
+    font-family:"Tw Cen MT"; 
+    margin-left: 1%;
+    margin-top: 1%; 
+}
+.situ_act_mod caption{
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    background-color: #ff9922;
+    caption-side: top;
+}
+.situ_act_mod td,.situ_act_mod th{
+    border:1px #4000f2 solid;
+}
+.md_act,.md_vlds{
+    text-align: center;
+    font-weight: bold;
+    font-family: "arial black";
+}
+.md_vlds{
+    color: blue;
+}
+.md_act{
+    color:#872222
+}

@@ -1,0 +1,70 @@
+/* 
+    Document   : affich_etd_style
+    Created on : 21 janv. 2015, 01:35:21
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+   background-color: white;
+}
+
+.etudiant,.titre {
+    border: 1px #009640 outset;
+    margin:1%;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding:0.3%;
+}
+.etudiant{
+    
+}
+.etudiant:hover{
+    background-color: #009966;
+    transition-duration: 1s;
+    box-shadow: #0000ff 1px 1px 3px 3px;
+    -webkit-box-shadow: 1px 1px 3px 3px #0000ff ;
+    cursor: pointer;
+}
+.titre strong{
+    display: inline-block;
+    width:17.5%;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 1%;
+    padding-left: 1%;
+    text-align: center;
+    font-style: italic;
+    color: #ffffff;
+    background-color: #009999; 
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.etudiant strong{
+    display: inline-block;
+    width:17%;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 1%;
+    border: #0099cc 1px ridge;
+    padding-left: 1%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+hr{
+    width:90%;
+    background-color: blue;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.non_ins{
+    display: inline-block;
+    background-color: yellow;
+    width:96%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    text-align: center;
+}

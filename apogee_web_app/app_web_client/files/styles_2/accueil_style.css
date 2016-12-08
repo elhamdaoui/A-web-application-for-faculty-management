@@ -1,0 +1,420 @@
+/* 
+    Document   : accueil_style
+    Created on : 8 janv. 2015, 23:01:42
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    background-color: white;
+
+}
+header{
+    position: fixed;
+    display: inline-block;
+    background-image: url('../imgs/header.jpg');
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 100% 100%;                
+    border: 1px black ridge;
+    width: 99%;
+    height:20%;
+    left:0.5%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+
+}
+
+section{
+    position: absolute;
+    display: inline-block;
+    width:99%;
+    height:72%;
+    left:0.5%;
+    top:22%;
+    /* border: 1px black dotted;*/
+}
+
+
+section nav{
+    position: absolute;
+    display: inline-block;
+    left:0%;
+    top:1%;
+    width:14%;
+    height:97%;
+    background-color: white;
+    border:none;
+    box-shadow: black 1px 1px 3px 2px;
+    -webkit-box-shadow: black 1px 1px 3px 2px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+a{
+    /*display: inline-block;*/
+    position: absolute;
+    width:94%;
+    left:1%;
+    height: 22.5%;
+    background-color: #003C77;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    cursor: pointer;
+    font-size: 130%;
+    text-align: center;
+    text-wrap: avoid;
+    font-weight: bold;
+    color: wheat;
+    word-wrap: break-word;  
+    text-decoration: none;
+    border-style: outset;
+    border-color: #0099ff;
+    overflow: hidden;
+}
+a:hover{
+    transition-duration: 1s;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-style: ridge;
+    background-color: #006666;
+    height: 22%;
+
+}
+section nav a label{
+    position: absolute;
+    cursor: pointer;
+    top:20%;
+    left:0%;
+    width:100%;
+    height:40%;
+    text-align:center;
+}
+#acc_a{
+    top:2%;
+}
+#inf_a{
+    top:26%;
+}
+#etd_a{
+    top:50%;
+}
+#etd_a label{
+    width:80%; 
+    left:10%;
+}
+#prof_a{
+    top: 74%;
+}
+section .corps{
+    position: absolute;
+    display: inline-block;
+    left:15%;
+    top:1%;
+    width:71%;
+    height:97%;
+    background-color: white;/*#ff5700;*/
+    border:none;
+    /*box-shadow: black 1px 1px 3px 2px;
+    -webkit-box-shadow: black 1px 1px 3px 2px;*/
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+section .corps form{
+    display:inline-block;
+    position:absolute;
+    width:80%;
+    height:90%;
+    left:10%;
+    top:3%;
+    border: 1px #949999 solid;
+    border-radius:20px;
+    padding-top: 0.5%;
+    -webkit-border-radius: 20px;
+    box-shadow: black 2px 2px 2px 0.8px;
+    -webkit-box-shadow: black 2px 2px 2px 0.8px;
+    -o-box-shadow: black 2px 2px 2px 0.8px;
+    word-wrap: break-word;
+    background-color: wheat;
+}
+section .corps form div p{
+    height:65%;
+    margin-left:0.5%;
+    margin-top:0%;
+    width:100%;
+    text-align: center;
+    background-color: #003C77;
+    color:green;
+    border-radius:20px 20px 0px 0px;
+    -webkit-border-radius:20px 20px 0px 0px;
+    font-size:1.3em;
+    padding-top:2%;
+
+}
+section .corps label{
+    position: absolute;
+    display: inline-block;
+    left:8%;
+    height:8%;
+    width:19%;
+    background-color:white;
+    color:black;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    margin-top: 1%;
+    padding-left:1%;
+    padding-top:1%;
+    font-family: "Tw Cen MT";
+    font-weight: bold;
+}
+section .corps input{
+    position: absolute;
+    display: inline-block;
+    left:30%;
+    height:8%;
+    width:60%;
+    border-radius:10px;
+    -webkit-border-radius:10px/10px;
+    margin-top: 1%;
+}
+#connect_e{
+    background-color: #003C77;
+    font-family: "arial black",andalus,sans-serif;
+    font-weight: bold;
+    color: wheat;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: outset;
+    left:8%;
+    width:83%;
+    margin-top:2%;
+}
+#connect_e:hover{
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    background-color: #00cccc;
+}
+#connect_prof{
+    background-color: #003C77;
+    font-family: "arial black",andalus,sans-serif;
+    font-weight: bold;
+    color: wheat;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: outset;
+    left:8%;
+    width:83%;
+    margin-top:2%;
+}
+#connect_prof:hover{
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    background-color: #00cccc;
+}
+
+section .corps a{
+    display: inline-block;
+    height:10%;
+    left:0.5%;
+    width:99%;
+    color: #3333ff;
+    border:none;
+    background-color:yellow;
+    border-radius:0px 0px 20px 20px;
+    -webkit-border-radius:0px 0px 20px 20px;
+    cursor:pointer;
+    text-decoration: none;
+    bottom:1%;
+}
+section .corps a:hover{
+    text-decoration: underline;
+}
+section .corps div{
+    display:block;
+    left:1%;
+    width: 99%;
+    height: 12%;
+}
+section .pub{
+    position: absolute;
+    display: inline-block;
+    right:0%;
+    top:1%;
+    width:13%;
+    height:97%;
+    background-color: white;
+    border:none;
+    box-shadow: black 1px 1px 3px 2px;
+    -webkit-box-shadow: black 1px 1px 3px 2px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+#calendrier{
+    position: absolute;
+    display: inline-block;
+    top:1%;
+    border:0%;
+    left:1%;
+    width:94%;
+    height: 45%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-style: outset;
+    border-color: #003C77;
+
+}
+#cld_annee{
+    position:absolute;
+    display: inline-block;
+    top:0%;
+    /*background-color: blue;*/
+    height:10%;
+    width:98%;
+    left:1%;
+    margin:0%;
+	color:white;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+}
+#prev_annee,#prev_mois{
+    position:absolute;
+    display: inline-block;
+    top:10%;
+    left:0%;
+    width:15%;
+    height:80%;
+    background-color: #003C77;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    cursor: pointer;
+		color:white;
+
+}
+#cld_annee_p,#cld_mois_p{
+	color:white;
+
+    position:absolute;
+    display: inline-block;
+    top:5%;
+    left:16%;
+    width:68%;
+    height:70%;
+    padding-bottom: 2%;
+    text-align: center;
+    background-color: #003C77;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+}
+#next_annee,#next_mois{
+    position:absolute;
+    display: inline-block;
+    top:10%;
+    right:0%;
+    width:15%;
+    height:80%;
+    background-color: #003C77;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    cursor: pointer;
+}
+#cld_mois{
+    position:absolute;
+    display: inline-block;
+    top:11%;
+    /* background-color: #009999;*/
+    height:10%;
+    width:98%;
+    left:1%;
+    margin:0%;
+}
+#cld_jours{
+    position:absolute;
+    display: inline-block;
+    bottom:1%;
+    height:77%;
+    width:98%;
+    left:1%;
+    background-color: white;
+    margin:0%;
+}
+#cld_jours em{
+    display:inline-block;
+    position: absolute;
+    width:13%;
+    border-color: #006666;
+	
+    border-style: solid;
+    border-width: 0.1px;
+    height:13.5%;
+    text-align: center;
+    overflow: hidden;
+    /*padding-right: 1%;*/
+}
+#cld_jours .day{
+    position: absolute;
+    display: inline-block;
+    background-color:	#81ADDA;
+    text-align: center;
+    color: white;
+    font-style: normal;
+}
+
+#cld_jours .now{
+    position: absolute;
+    display: inline-block;
+    border: 0.1px #003C77 outset;
+    background-color:#003C77; 
+}
+#heure{
+    position: absolute;
+    display: inline-block;
+    top:47.5%;
+    left:1%;
+    height:10%;
+    width:94%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-style: outset;
+    border-color: #003C77;
+    color: black;
+    font-size: 200%;
+    font-weight: bold;
+    font-family:  Tw Cen MT,andalus, fantasy, sans-serif;
+    overflow:hidden;
+}
+#date{
+    position: absolute;
+    bottom:8%;
+}
+footer{
+    position: absolute;
+    display: inline-block;
+    width:99%;
+    height:5%;
+    left:0.5%;
+    bottom:1%;
+    text-align: center;
+    font-family: andalus;
+    font-size: 1em;
+    color: #003C77;
+    border:1px #003C77 solid;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+footer p{
+    position: absolute;
+    display: inline-block;
+    height:80%;
+    right:1%;
+    top:-5%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+.actualites{
+    display: inline-block;
+    width:100%;
+    height:100%;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+}

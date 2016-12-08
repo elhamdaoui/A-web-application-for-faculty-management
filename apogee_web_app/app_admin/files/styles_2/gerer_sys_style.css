@@ -1,0 +1,122 @@
+/* 
+    Document   : gerer_sys_style
+    Created on : 3 févr. 2015, 01:13:42
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+    padding: 1%;
+    background-color: white;
+}
+.p_up{
+    margin-bottom:1%;
+    padding: 0.5%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 1px 1px 2px 2px black;
+    -webkit-box-shadow: 1px 1px 2px 2px black;
+    background-color: #37aeae;
+}
+
+.p_up input{
+    display: inline-block;
+    background-color: #62d271;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 2px #62d271 outset;
+    cursor: pointer;
+}
+.p_up input:hover{
+    background-color: #efef46;
+    color: #11cbd1;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border: 2px white dashed;
+}
+#form_ajt_dep{
+    display: none;
+    margin-top: 1%;
+    width:40%;
+    border-top: 2px #cc0033 solid;
+    border-bottom: 2px #cc0033 solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#form_ajt_dep p label{
+    display: inline-block;
+    width:40%;
+    margin-right: 3%;
+    padding-left: 1%;
+    vertical-align: top;
+    background-color: #006666;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#form_ajt_dep p input{
+    display: inline-block;
+    width:50%;
+    background-color: white;
+    border:1px solid black;
+    cursor: auto;
+    color: brown;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+} 
+#form_ajt_dep .btns input{
+    display: inline-block;
+    width:30%;
+    margin-left: 10%;
+    border:2px outset salmon;
+    cursor: pointer;
+    background-color: #009933;
+    color:black;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+#form_ajt_dep .btns input:hover{
+    background-color: #11cbd1;
+    border:2px dashed white;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+}
+.dept{
+    display: inline-block;
+    width:45%;
+    height:10%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    border:none;
+    box-shadow: 1px 1px 2px 2px black;
+    -webkit-box-shadow: 1px 1px 2px 2px black;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ca0a7f;
+    color: white;
+    text-decoration: none;
+    font-family: "arial black";
+}
+.dept:hover{
+    background-color: #0a9fa3;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    box-shadow: 1px 1px 2px 2px #ca0a7f;
+    -webkit-box-shadow: 1px 1px 2px 2px #ca0a7f; 
+}

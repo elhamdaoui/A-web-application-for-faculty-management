@@ -1,0 +1,214 @@
+/* 
+    Document   : modules_style
+    Created on : 9 févr. 2015, 21:24:33
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+    display: inline-block;
+    width:100%;
+    height:100%;
+    margin: 0%;
+    padding: 0%;
+}
+.div_up{
+    display: inline-block;
+    margin: 0%;
+    padding: 0.2%;
+    margin-top: 0.2%;
+    margin-left: 0.2%;
+    width:99%;
+    height:5%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    /*background-color: yellow;*/
+}
+.div_up p{
+    margin: 0%;
+    padding: 0%;
+}
+.table_nav{
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    width:100%;
+    border-collapse: collapse;
+    border-spacing: 10px;
+}
+.table_nav td{
+    margin: 0.3%;
+}
+.div_up select{
+   /* padding: 0.3%;*/
+    font-weight: bold;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    color: brown;
+}
+.div_up select option{
+    padding: 0.3%;
+    margin: 0.5%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+.div_up input{
+    cursor: pointer;
+    /*margin-left: 1%;
+    padding: 0.3%;*/
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-weight: bold;
+}
+.div_up input:hover{
+    background-color: #03aaed;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+}
+.corps{
+    display: inline-block;
+    margin: 0%;
+    padding: 0.2%;
+    margin-top: 0.2%;
+    margin-left: 0.2%;
+    width:99%;
+    height:5%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border: 2px green ridge;
+    padding: 0.2%;
+}
+/*table etudiants*/
+.tab_etds{
+    border-collapse: collapse;
+    width: 100%;
+    /*background-color: #a4ffbb;*/
+   font-family:"Tw Cen MT"; 
+}
+.tab_etds caption{
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    background-color: #65a46f;
+    caption-side: top;
+}
+.infos_md th{
+    border:1px solid black;
+    background-color: white;
+    text-align: left;
+}
+.infos_md .libele{
+    background-color: #ccff66;
+}
+.tab_etds td{
+    border:1px solid black;
+}
+.tab_etds th{
+}
+.tab_etds th input{
+    display:inline-block;
+    width:95%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+tfoot th input{
+    cursor: pointer;
+    font-weight: bold;
+}
+tfoot th input:hover{
+    background-color: #00cc99;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+}
+/*style ajouter actualite*/
+.form_act{
+    /*position:fixed;*/
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 2%;
+    margin-left:9%;
+    width: 80%;
+    height:80%;
+    background-color: white;/*#00cc33;*/
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.form_act div{
+    display: inline-block;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 1%;
+    height: 10%;
+}
+.form_act .description{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: "Tw Cen MT",andalus,sans-serif;
+    color: #4f4f4f;
+}
+.form_act div label{
+    display: inline-block;
+    background-color: #00a877;
+    margin: 0%;
+    padding: 1%;
+    margin-left: 1%;
+    color: white;
+    width:18%;
+    height:70%;
+    font-size: large;
+    font-family: "arial black";
+    vertical-align: top;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.form_act div input,.form_act div textarea{
+    display: inline-block;
+    padding: 1%;
+    margin: 0%;
+    border: 1px solid orange;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: 1%;
+    width:90%;
+    height: 80%;
+    vertical-align: top;
+}
+
+.form_act .btns{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 5%;
+    width: 40%;
+    height:99%;
+    border: 3px #00a877 outset;
+    cursor: pointer;
+    font-size: larger;
+    background-color: #4faff6;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+.form_act .btns:hover{
+    border:1px dashed #0099cc;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    background-color: #02012d;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+}
+input:focus{
+    box-shadow: 1px 1px 2px 2px #ff6666;
+    -webkit-box-shadow: 1px 1px 2px 2px #ff6666;
+    border-color: #ff6666;
+    background-color: rgba(5,176,176,0.7);
+}

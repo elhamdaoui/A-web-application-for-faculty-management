@@ -1,0 +1,75 @@
+/* 
+    Document   : affich_prof_style
+    Created on : 31 janv. 2015, 00:26:59
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.prof_p_t{
+    position: fixed;
+    margin: 0%;
+    padding: 0%;
+    width: 96%;
+    margin-left: 1%;
+    padding-left: 0.4%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border:none;
+    box-shadow: 1px 1px 3px 2px black;
+    -webkit-box-shadow: 1px 1px 3px 2px black;
+}
+.prof_p_t strong{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 0.5%;
+    margin-left: 0.6%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 15.3%;
+    background-color: #003333;
+    color: white;
+    text-align: center;
+}
+.prof_p{
+    margin: 0%;
+    padding: 0%;
+    width: 97%;
+    margin-left: 1%;
+    margin-top: 0.8%;
+    padding-left: 1%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border:none;
+    box-shadow: 1px 1px 3px 2px black;
+    -webkit-box-shadow: 1px 1px 3px 2px black;
+
+}
+.prof_p{
+    cursor: pointer;
+}
+.prof_p:hover{
+    background-color: #009999;
+    box-shadow: 1px 1px 3px 3px #c72d5d;
+    -webkit-box-shadow: 1px 1px 3px 3px #c72d5d;
+}
+
+.prof_p strong{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 0.5%;
+    margin-left: 0.3%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 15.2%;
+    background-color: #f9f9a0;
+    color: #252525;  
+    overflow: hidden;
+    word-wrap: break-word;
+}

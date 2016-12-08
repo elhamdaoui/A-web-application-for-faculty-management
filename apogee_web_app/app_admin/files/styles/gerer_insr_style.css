@@ -1,0 +1,83 @@
+/* 
+    Document   : gerer_insr_style
+    Created on : 20 janv. 2015, 21:13:03
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+form{
+    background-color: #3866ef;
+    margin:0%;
+    padding: 0%;
+    width:35%;
+    height:70%;
+    margin-left: 32%;
+    margin-top: 4%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 2px 1px 3px 3px black;
+    -webkit-box-shadow: 2px 1px 3px 3px black;
+    border:none;
+    overflow: scroll;
+}
+form #titre{
+    margin:0%;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    color:#93918b;
+    background-color: #93ff7f;
+    text-align: center;
+    font-weight: bold;
+    font-family: andalus;
+}
+form p{
+    margin: 0%;
+    margin-top:2%;
+}
+form p label{
+    display: inline-block;
+    width:30%;
+    padding: 0%;
+    margin: 0%;
+    background-color: #009640;
+    color:#00072e;
+    border-radius: 0px 10px 10px 0px;
+    -webkit-border-radius: 0px 10px 10px 0px;
+    padding-left: 3%;
+    cursor: pointer;
+}
+form p em{
+    display: inline-block;
+    width:30%;
+    padding: 0%;
+    margin: 0%;
+    background-color: #93918b;
+    color: white;
+    border-radius: 5px 10px 10px 5px;
+    -webkit-border-radius: 5px 10px 10px 5px;
+    padding-left: 3%;
+}
+form div label{
+    background-color: #9a3c45;
+}
+#btns input{
+    display: inline-block;
+    width:30%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    cursor: pointer;
+}
+#btns{
+    margin-bottom: 2%;
+}
+#btns input:hover{
+    border-style: dashed;
+    background-color: #0099ff;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    box-shadow: salmon 2px 1px 3px 3px;
+}
+

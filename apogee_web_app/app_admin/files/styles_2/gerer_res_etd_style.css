@@ -1,0 +1,165 @@
+/* 
+    Document   : gerer_res_style
+    Created on : 14 janv. 2015, 19:46:30
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    background-color: #006666;
+}
+nav{
+    position: absolute;
+    display: inline-block;
+    left: 0.5%;
+    top:1%;
+    width:17%;
+    height:98%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #8ad013;
+    overflow: hidden;
+}
+nav a{
+    display: block; 
+    width:92%;
+    height:23%;
+    margin-top: 3%;
+    margin-left:3%;
+    background-color: #0a0520;
+    cursor: pointer;
+    color: #dae9bf;
+    font-family: "Tw Cen MT",andalus,sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    overflow: hidden;
+}
+nav a:hover{
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    color: #3a3c36;
+    background-color: #dae9bf;
+    transform: translateX(2%) skewY(1deg) rotateZ(-2deg);
+    -webkit-transform: translateX(2%) skewY(1deg) rotateZ(-2deg);
+}
+
+
+nav a label{
+    display: inline-block;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    width:95%;
+    margin: 0%;
+    margin-left:2%;
+    margin-top:15%;
+    height:55%;
+    cursor: pointer;
+}
+nav article{
+    display: block; 
+    width:90%;
+    height:46%;
+    margin-top: 3%;
+    margin-left:3%;
+    padding-left: 2%;
+    background-color: #0a0520;
+    cursor: auto;
+    color: #dae9bf;
+    font-family: Tw Cen MT,andalus,sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    overflow: hidden;
+}
+nav article h1{
+    text-align: center;
+    font-family: Tw Cen MT,andalus,sans-serif;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    width:95%;
+}
+nav article label{
+    width:80%;
+    text-align: left;
+    padding-left:3%;
+}
+nav article input{
+    display: block;
+    width :92%;
+}
+iframe{
+    position: absolute;
+    display: inline-block;
+    right: 0.5%;
+    top:1%;
+    width:81%;
+    height:98%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: none;
+    background-color: #cdf28e;
+}
+
+/*pour la page gerer etudiant gerer_etd.php*/
+.lien_etd a{
+    height:17%;
+}
+.lien_etd article{
+    height:37%;
+}
+.lien_etd a,.lien_etd article{
+    background-color: #049254;
+    border-style: ridge;
+}
+.lien_etd a:hover,.lien_etd article:hover{
+    transform: none;
+    -webkit-transform: none;
+    -webkit-transition: none;
+}
+.lien_etd article label,.lien_etd article input,.lien_etd article select{
+    display: block;
+    width:80%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+.lien_etd article label{
+    background-color: #006666;
+}
+.lien_etd article input{
+    margin-bottom: 3%;
+}
+#options_aff{
+    display: none; 
+    width:92%;
+    height:15%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left:4%;
+    border-style: inset;
+    border-width: 1px;
+    background-color: #99ff66;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+#options_aff label{
+    display: inline-block;
+    background-color: #0099cc;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin-left:2%;
+    padding-left:2%;
+    width:35%;
+    margin-top:2%;
+    color:white;
+}
+#options_aff select{
+    display: inline-block;
+    border: #0099cc solid 1px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin-left:2%;
+    width:55%;
+    margin-top:2%;
+}

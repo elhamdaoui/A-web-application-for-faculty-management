@@ -1,0 +1,199 @@
+/* 
+    Document   : affich_act_style
+    Created on : 27 janv. 2015, 00:02:15
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.conte{  
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 1%;
+    padding-left:6%;
+    border-top:3px #00072e groove;
+    border-bottom:3px #ff3300 inset;
+    border-radius: 10px;
+    /*box-shadow: #00072e 0px 0px 3px 1px;*/
+}
+.conte:hover{
+    background-color: #fff445;
+    transition-duration: 2s;
+    -webkit-transition-duration: 2s;
+}
+.actualite{
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    /*border: 2px green ridge;*/
+    background-color: white;
+    width:90%;
+    box-shadow: black 1px 1px 3px 1px;
+    -webkit-box-shadow: black 1px 1px 3px 1px;
+}
+.actualite .img_ac{
+    
+}
+.actualite .image_acc{
+    background-color: yellow; 
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    width:20%;
+    height: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    float: left;
+}
+
+.actualite article{
+    display: inline-block;
+    padding: 0%;
+    margin: 0%;
+    width:79.6%;
+    height:99%;
+    float: right;
+    background-color: white;
+    border-radius: 5px;
+}
+.actualite article h2{
+    margin: 0%;
+    padding: 0%;
+    border: 1px green solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-radius: 5px;
+}
+.actualite article p{
+    margin: 0%;
+    padding: 0%;
+    margin-top:0.5%;
+    border: 1px blue solid;
+    border-right: 0px;
+    border-radius: 5px;
+}
+.infos{
+    padding: 0%;
+    margin: 0%;
+    width:90%;
+    background-color: #006666;
+    color: white;
+    box-shadow: black 1px 1px 3px 1px;
+    -webkit-box-shadow: black 1px 1px 3px 1px;
+    border-radius: 0px 0px 6px 6px;
+    -webkit-border-radius: 0px 0px 6px 6px;
+}
+.btn_actalite{
+    padding: 0%;
+    margin: 0%;
+    width:90%;
+    margin-bottom: 3%;
+}
+.btn_actalite input{
+    display: inline-block;
+    width:20%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    font-size: large;
+    font-weight: bold;
+    border: 2px #0099cc groove;
+    margin-top: 0.3%;
+    cursor: pointer;
+}
+.btn_actalite input:hover{
+    background-color: #0099ff;
+    border-style: dashed;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    box-shadow: #0099ff 1px 1px 2px 1px;
+    -webkit-box-shadow: #0099ff 1px 1px 2px 1px;
+    
+}
+.btn_actalite #supprimer{
+    float: right;
+    background-color: #ff3300;
+}
+.btn_actalite #modifier{
+    float: left;
+    background-color: #00cc66;
+}
+#acc_date{
+    float: right;
+}
+.modif_act{
+    position: absolute;
+    display: inline-block;
+    width:80%;
+    height:60%;
+    top:15%;
+    left:9%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: salmon;
+}
+.modif_act .description{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: "Tw Cen MT",andalus,sans-serif;
+    color: #4f4f4f;
+}
+.modif_act div{
+    margin-top:1%;
+    height:10%;
+}
+.modif_act label{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    width:20%;
+    height:99%;
+    vertical-align: top;
+    text-align: right;
+    padding-right: 1%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #003333;
+    color: white;
+    
+}
+.modif_act input,.modif_act textarea{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 3%;
+    width:70%;
+    height:90%;
+    vertical-align: top;
+}
+.modif_act input[type="submit"]{
+    background-color: green;
+    width:40%;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-style: outset;
+    font-weight: bold;
+    font-size: large;
+}
+.modif_act input[type="button"]{
+    background-color: red;
+    width:40%;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-style: outset;
+    font-weight: bold;
+    font-size: large;
+}
+.modif_act input[type="button"]:hover,.modif_act input[type="submit"]:hover{
+    background-color: #0099cc;
+    border-style: dashed;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}

@@ -1,0 +1,116 @@
+/* 
+    Document   : ajout_resp_style
+    Created on : 15 janv. 2015, 03:11:52
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+form{
+    display: inline-block;
+    margin-left:6%;
+    width:86%;
+    border:none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 2px 1px 2px 2px black;
+    -webkit-box-shadow: 2px 1px 2px 2px black;
+    padding: 1%;
+}
+form fieldset{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+form div{
+    width:96%;
+    height:18%;
+    margin:0.5%;
+}
+
+form label{
+    display: inline-block;
+    width: 15%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #0f5d43;
+    margin: 0%;
+    margin-left: 1%;
+    padding: 0%;
+    padding-right: 1%;
+    text-align: right;
+}
+form input,form select{
+    display: inline-block;
+    width: 50%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin: 0%;
+    margin-left: 1%;
+    padding: 0%;
+}
+.ddn{
+    width:16%;
+    margin-left:0.5%;
+}
+.radio{
+    width:5%;
+}
+#fil{
+    display: none;
+}
+.btn{
+    padding: 0%;
+}
+#initialiser{
+    display: inline-block;
+    width:35%;
+    margin: 0%;
+    margin-left:10%;
+    background-color: #c2f704;
+    border-style: outset;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+#initialiser:hover{
+    border-style: ridge;
+    border-color: orange;
+}
+#valider{
+    width:35%;
+    margin: 0%;
+    margin-left:10%;
+    background-color: #0f5a08;
+    border-style: outset;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+#valider:hover{
+    border-style: ridge;
+    border-color: green;
+}
+#image,#message{
+    position:absolute;
+    display:none;
+    width:20%;
+    height:35%;
+    border:none;
+    border-radius:12px;
+    -webkit-border-radius:12px;
+    box-shadow: black 3px 2px 2px 1px;
+    -webkit-box-shadow: black 3px 2px 2px 1px;
+    -o-box-shadow: black 3px 2px 2px 1px;
+    top:5%;
+    right:8.5%;
+    background-color:white;
+    z-index:30;
+}
+#message{
+    display:inline-block;
+    color:red;
+    font-size:1em;
+    text-align: justify;
+}

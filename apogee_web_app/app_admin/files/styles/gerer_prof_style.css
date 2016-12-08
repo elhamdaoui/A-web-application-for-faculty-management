@@ -1,0 +1,106 @@
+/* 
+    Document   : gerer_prof_style
+    Created on : 30 janv. 2015, 17:32:41
+    Author     : abdelmajid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+    background-color: #8ad013;
+}
+nav{
+    position: absolute;
+    display: inline-block;
+    left: 0.5%;
+    top:1%;
+    width:17%;
+    height:98%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color: #8ad013;
+    overflow: hidden;
+}
+nav a{
+    display: block; 
+    width:92%;
+    height:23%;
+    margin-top: 3%;
+    margin-left:3%;
+    background-color: #0a0520;
+    cursor: pointer;
+    color: #dae9bf;
+    font-family: "Tw Cen MT",andalus,sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    overflow: hidden;
+}
+nav a:hover{
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    color: #3a3c36;
+    background-color: #dae9bf;
+    transform: translateX(2%) skewY(1deg) rotateZ(-2deg);
+    -webkit-transform: translateX(2%) skewY(1deg) rotateZ(-2deg);
+}
+
+
+nav a label{
+    display: inline-block;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    width:95%;
+    margin: 0%;
+    margin-left:2%;
+    margin-top:15%;
+    height:55%;
+    cursor: pointer;
+}
+nav article{
+    display: block; 
+    width:90%;
+    height:46%;
+    margin-top: 3%;
+    margin-left:3%;
+    padding-left: 2%;
+    background-color: #0a0520;
+    cursor: auto;
+    color: #dae9bf;
+    font-family: Tw Cen MT,andalus,sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    overflow: hidden;
+}
+nav article h1{
+    text-align: center;
+    font-family: Tw Cen MT,andalus,sans-serif;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    width:95%;
+}
+nav article label{
+    width:80%;
+    text-align: left;
+    padding-left:3%;
+}
+nav article input{
+    display: block;
+    width :92%;
+}
+iframe{
+    position: absolute;
+    display: inline-block;
+    right: 0.5%;
+    top:1%;
+    width:81%;
+    height:98%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: none;
+    background-color: #cdf28e;
+}
